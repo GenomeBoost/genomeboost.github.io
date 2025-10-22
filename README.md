@@ -1,6 +1,6 @@
-= **GenomeBoost** - Super-fast Genome Analysis Software for Sequencing Data
+# **GenomeBoost** - Super-fast Genome Analysis Software for Sequencing Data
 
-== Introduction
+## Introduction
 
 **GenomeBoost** is a high-speed genome analysis software that produces results identical 
 to those from the **GATK** Best Practices pipeline, while achieving over 10× faster 
@@ -15,7 +15,7 @@ The current version of **GenomeBoost** supports short-read data ranging from 75 
 Please refer to the LICENSE file for details on the licensing policy.  
 The **GenomeBoost** BWA module is based on the *BWA* source code under the Apache License.
 
-== How to execute **GenomeBoost**
+## How to execute **GenomeBoost**
 
 1. Index the reference FASTA file.
 ```
@@ -56,7 +56,7 @@ at a time.
 Please make sure that there is enough free disk space (at least 4× the size of input
 FASTQ files) because **GenomeBoost** stores intermediate data into temporary files.
 
-= **GATK** compatible output
+# **GATK** compatible output
 
 By examining >430 human WGS datasets, we confirmed that **GenomeBoost** produces
 SAM output, mark-illumina-adapter metrics, mark-duplicate metrics, and
@@ -68,7 +68,7 @@ of the **GATK** best-practice and the following software versions:
 - Picard 3.2.0
 - BWA 0.7.18
 
-== Detailed **GATK** steps
+## Detailed **GATK** steps
 
 Here are the detailed steps of the **GATK** pipeline we tested:
 - FastqToSam
@@ -89,6 +89,6 @@ To remove the random fluctuations in our test, we executed the **GATK** BaseReca
 ApplyBQSR in a single process and confirmed that the output files of **GenomeBoost**
 are identical to those of the **GATK** BaseRecalibrator and ApplyBQSR.
 
-= Support
+# Support
 
 If you have any questions about this software, please contact **support@genome5me.com**
