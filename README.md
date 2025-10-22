@@ -92,4 +92,4 @@ are identical to those of the **GATK** BaseRecalibrator and ApplyBQSR.
 
 # Support
 
-If you have any questions about this software, please contact **support@genome5me.com**
+If you have any questions about this software, please contact **[support@genome4me.com](mailto:support@genome4me.com)**
