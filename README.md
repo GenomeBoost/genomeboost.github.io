@@ -1,4 +1,4 @@
-# **GenomeBoost** - Super-fast Genome Analysis Software for Sequencing Data
+# **GenomeBoost** - Ultra-fast Genome Analysis Software for Sequencing Data
 
 ## Introduction
 
