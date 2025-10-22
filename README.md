@@ -5,6 +5,7 @@
 **GenomeBoost** is a high-speed genome analysis software that produces results identical 
 to those from the **GATK** Best Practices pipeline, while achieving over 10× faster 
 performance on most CPU-based servers — without requiring additional hardware such as GPUs or FPGAs.
+**GenomeBoost** is the core software of **[GenomeBoost Server™](https://genomeboostserver.github.io)**.
 
 **GenomeBoost** is optimized based on the *BWA* implementation under the Apache License 
 and integrates key functionalities of **GATK**, including MarkIlluminaAdapters, 
